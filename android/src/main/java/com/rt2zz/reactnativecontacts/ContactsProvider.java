@@ -399,7 +399,7 @@ public class ContactsProvider {
                             default:
                                 label = "other";
                         }
-                        contact.phones.add(new Contact.Item(label, phoneNumber, id));
+                        contact.phones.add(phoneNumber);
                     }
                     break;
                 case Email.CONTENT_ITEM_TYPE:
